@@ -1,0 +1,17 @@
+name: ramp-solar-wind
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - pandas>=0.23
+  - scikit-learn>=0.20
+  - pyarrow
+  - imbalanced-learn
+  - matplotlib
+  - joblib
+
+  - pip
+  - pip:
+      - ramp-workflow
+      - osfclient
